@@ -2,9 +2,9 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "MoneyFlow — личные финансы",
+    name: "MoneyFlow вЂ” СѓС‡С‘С‚ С„РёРЅР°РЅСЃРѕРІ",
     short_name: "MoneyFlow",
-    description: "Умный трекер доходов и расходов с аналитикой",
+    description: "РЈС‡С‘С‚ Р»РёС‡РЅС‹С… СЂР°СЃС…РѕРґРѕРІ Рё С„РёРЅР°РЅСЃРѕРІ",
     start_url: "/",
     display: "standalone",
     orientation: "portrait-primary",
@@ -34,14 +34,14 @@ export default function manifest(): MetadataRoute.Manifest {
     ],
     shortcuts: [
       {
-        name: "Новая транзакция",
-        short_name: "Транзакция",
+        name: "РќРѕРІР°СЏ С‚СЂР°РЅР·Р°РєС†РёСЏ",
+        short_name: "Р”РѕР±Р°РІРёС‚СЊ",
         url: "/?new=true",
         icons: [{ src: "/icon-192.png", sizes: "192x192" }],
       },
       {
-        name: "Мои счета",
-        short_name: "Счета",
+        name: "РњРѕРё СЃС‡РµС‚Р°",
+        short_name: "РЎС‡РµС‚Р°",
         url: "/accounts",
         icons: [{ src: "/icon-192.png", sizes: "192x192" }],
       },
